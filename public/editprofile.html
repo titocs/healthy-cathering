@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Edit Profil</title>
+</head>
+<body class="bg-[#F5F5F8] p-5">
+    <div class="flex">
+        <button class="flex-none" onclick="history.back()">
+            <img class="w-3" src="/icon/angle-left-solid.svg" alt="">
+        </button>
+        <h1 class="grow font-bold text-2xl text-center">Edit Profile</h1>
+        <button class="flex-none text-main-color">Save</button>
+    </div>
+
+    <div class="grid grid-cols-1 gap-3 place-items-center h-52">
+        <div class="w-40 mt-5">
+            <img class="w-full h-full rounded-full" src="/img/profil-dummy.png" alt="">
+        </div>
+        <button class="text-main-color text-opacity-60 mb-3">Change Photo</button>
+    </div>
+
+    <form action="" method="POST">
+        <div class="mb-5 mt-5">
+            <h1 class="text-lg mb-1">Nama</h1>
+            <input class="block w-full bg-transparent border-b border-gray-400 placeholder:font-semibold placeholder:text-black focus:outline-none" name="full-name" type="text" placeholder="Camelia Levato">
+        </div>
+
+        <div class="mb-5">
+            <h1 class="text-lg mb-1">E-mail</h1>
+            <input class="block w-full bg-transparent border-b border-gray-400 placeholder:font-semibold placeholder:text-black focus:outline-none" name="email" type="text" placeholder="camelia@gmail.com">
+        </div>
+
+        <div class="mb-5">
+            <h1 class="text-lg mb-1">Nomor Handphone</h1>
+            <input class="block w-full bg-transparent border-b border-gray-400 placeholder:font-semibold placeholder:text-black focus:outline-none" name="email" type="text" placeholder="0123456789">
+        </div>
+
+        <div class="mb-5">
+            <h1 class="text-lg mb-1">Jenis Kelamin</h1>
+            <input class="block w-full bg-transparent border-b border-gray-400 placeholder:font-semibold placeholder:text-black focus:outline-none" name="email" type="text" placeholder="Perempuan">
+        </div>
+
+        <div class="mb-5">
+            <h1 class="text-lg mb-1">Riwayat Alergi</h1>
+            <input class="block w-full bg-transparent border-b border-gray-400 placeholder:font-semibold placeholder:text-black focus:outline-none" name="email" type="text" placeholder="Tidak Ada">
+        </div>
+    </form>
+</body>
+</html>
