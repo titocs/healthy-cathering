@@ -615,6 +615,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -687,6 +692,22 @@ video {
   margin-top: 1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-\[-4px\] {
+  margin-top: -4px;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -729,6 +750,10 @@ video {
 
 .h-52 {
   height: 13rem;
+}
+
+.h-\[96px\] {
+  height: 96px;
 }
 
 .min-h-screen {
@@ -835,6 +860,10 @@ video {
   justify-content: space-around;
 }
 
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -850,6 +879,10 @@ video {
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .overflow-auto {
@@ -882,6 +915,20 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-l-\[20px\] {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rounded-r-\[20px\] {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .border-2 {
@@ -1006,6 +1053,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1024,6 +1075,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pt-2 {
@@ -1093,6 +1154,11 @@ video {
   line-height: 2rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1134,6 +1200,16 @@ video {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#263238\] {
+  --tw-text-opacity: 1;
+  color: rgb(38 50 56 / var(--tw-text-opacity));
 }
 
 .text-opacity-60 {
