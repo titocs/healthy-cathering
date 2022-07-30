@@ -2,7 +2,7 @@
 
 require('functions.php');
 
-session_start();
+// session_start();
 
 if(isset($_POST['login'])){
     $email = $_POST['email'];
@@ -14,7 +14,7 @@ if(isset($_POST['login'])){
         $row = mysqli_fetch_assoc($result);
         if(password_verify($password, $row['password'])){
             // cek session
-            $_SESSION['login'] = true;
+            // $_SESSION['login'] = true;
 
             header('Location: home.php');
             exit;
