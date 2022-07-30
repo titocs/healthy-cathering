@@ -49,9 +49,19 @@
                 <p class="font-semibold text-left pl-4">Privacy Policy</p>
                 <img class="ml-auto mt-1" src="/icon/chevron-left.svg" alt="">
             </button>
+<<<<<<< HEAD:public/profile.php
         </div>
     </div>
     <button class="font-bold text-xl mt-5 mb-20 bg-main-color bg-opacity-30 border-red-600 border-2 w-full p-2 rounded-2xl text-red-600" name="logout" type="submit">Log out</button>
+=======
+            <button class="flex rounded-full w-full bg-main-color bg-opacity-10 mb-4 p-2 drop-shadow-lg">
+                <p class="font-semibold text-left pl-4">Terms Of Service</p>
+                <img class="ml-auto mt-1" src="/icon/chevron-left.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <button class="font-bold text-xl mt-5 mb-3 bg-main-color bg-opacity-30 border-red-600 border-2 w-full p-2 rounded-2xl text-red-600" name="logout" type="submit">Log out</button>
+>>>>>>> ee957bafb6395451279f678b4aa248e713034be6:public/profile.html
     
     <!-- MENU NAVIGATION -->
     <div class="bg-main-color fixed bottom-0 left-0 right-0 p-4 flex justify-between">
