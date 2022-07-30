@@ -1,5 +1,5 @@
 module.exports = {
-    content: ["./src/**/*.{html,js}", "index.html", "./public/**/*.{html,js}"],
+    content: ["./src/**/*.{html,js,php}", "index.html", "./public/**/*.{html,js,php}", "index.php"],
     theme: {
       extend: {
         'colors': {
