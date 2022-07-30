@@ -90,7 +90,6 @@
                     </div>
                 </div>
             </a>
-            
         </section>
 
         <section class="px-4 mt-6">

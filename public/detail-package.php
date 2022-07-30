@@ -62,7 +62,7 @@
                         <div class="w-full">
                             <div class="flex justify-between">
                                 <div class="ml-2 w-4/5">
-                                    <p class="text-base font-semibold">Westiees/p>
+                                    <p class="text-base font-semibold">Westiees</p>
                                     <p class="text-sm font-light">$$$$<span class="text-[#909090]">$</span></p>
                                     <div class="border-b-2 w-full my-1"></div>
                                     <p class="text-xs text-[#444444]">1,57 km . Delivery in 17 minutes</p>
@@ -82,7 +82,7 @@
                     <div class="w-full">
                         <div class="flex justify-between">
                             <div class="ml-2 w-4/5">
-                                <p class="text-base font-semibold">Tuku Shi/p>
+                                <p class="text-base font-semibold">Tuku Shi</p>
                                 <p class="text-sm font-light">$$$$<span class="text-[#909090]">$</span></p>
                                 <div class="border-b-2 w-full my-1"></div>
                                 <p class="text-xs text-[#444444]">2 km . Delivery in 22 minutes</p>
